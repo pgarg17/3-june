@@ -1,0 +1,96 @@
+#backgrounding
+{
+  background-image: url('book.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color:rgb(0,0,0);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#ab{
+  float: center;
+  padding-left: 25%;
+}
+#am
+{
+  
+  padding-left: 25%;
+
+}
+#pm
+{
+  float: center;
+  padding-right: 25%;
+
+}
+#cm
+{
+  float: center;
+padding-left: 15%;
+}
+#c1
+{
+  height:50%;
+  max-height: 150px;
+  width: 40%;
+  float: center; 
+  position:absolute;
+    margin-bottom: 10px;
+
+}
+#c2
+{
+  height:50%;
+  max-height: 150px;
+  width: 40%;
+  top: 150px;
+  float: center;
+  position:absolute;
+    margin-bottom: 10px;
+}
+#c3
+{
+  height:50%;
+  max-height: 150px;
+  width: 40%;
+  top:300px;
+  float: center;
+  position:absolute;
+    margin-bottom: 10px;
+}
+.dropdown-menu
+{
+  min-width:500px;
+  min-height:200px;
+}
+
+.dropdown-menu li a
+{
+  padding: 10px 15px;
+}
+
+.multi-column-dropdown
+{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  color: #000;
+}
+.multi-column-dropdown li a
+{
+  display: block;
+  clear: both;
+  color:#479;
+  white-space: normal;
+
+}
+
+.multi-column-dropdown li a:hover{
+  text-decoration:none;
+  color:#245636;
+  background-color: #FFDB85;
+}
