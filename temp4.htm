@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="temp3.css" rel="stylesheet" typ="text/css">
+  <style>
+body{
+  background: url('book.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    
+    #p
+    #r{
+      left: 5%;
+    }
+    {float: left;}
+    #demo
+    {float: left;
+      padding-left: 5%;}
+      #myCarousel1
+      {left:20%;}
+      #myCarousel2
+      {left:20%;}
+      #myCarousel3
+      {left:20%;}
+    body
+    {background-image: none;
+      background-color: white;}
+    
+   
+}
+</style>
+
+
+</head>
+<body>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="cm">
+        <h3 id="demo"></h3>
+        <script>
+        function date_time()
+        {
+          var dt = new Date();
+          document.getElementById("demo").innerHTML = dt;
+          setTimeout(function(){ date_time(); }, 1000);
+       }
+        date_time();
+        </script>
+      </div>
+    
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <br>
+      <br>                                        
+        <div class="dropdown" id="p">
+        <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown">Bookmark
+        <span class="caret"></span></button>
+          
+          <ul class="dropdown-menu with multi-column columns-3">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#">Category 1</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Topic 1</a></li>
+                  <li><a href="#">topic 2</a></li>
+                  
+                  <li><a href="#">Topic 3</a></li>
+                  
+                  <li><a href="#">Topic 4</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                   <li><a href="#">Category 2</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Topic 1</a></li>
+                  <li><a href="#">Topic 2</a></li>
+                  
+                  <li><a href="#">Topic 3</a></li>
+                  
+                  <li><a href="#">Topic 4</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                   <li><a href="#">Category 3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Topic 1</a></li>
+                  <li><a href="#">Topic 2</a></li>
+                  
+                  <li><a href="#">Topic 3</a></li>
+                  
+                  <li><a href="#">Topic 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+
+        </div>
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="am">
+      <div class="row" id="c1">
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+    <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="pic1.jpg" style="width:100%;">
+                  </div>
+
+                  <div class="item">
+                    <img src="pic2.jpg" style="width:100%;">
+                  </div>
+    
+                  <div class="item">
+                    <img src="pic3.jpg" style="width:100%;">
+                  </div>
+              </div>
+
+    <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+              </a>
+        </div>   
+      </div>
+     <br>
+     <br>
+     <div class="row" id="c2" margin-top="10px">
+          <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+    <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="pic1.jpg" style="width:100%;">
+                  </div>
+
+                  <div class="item">
+                    <img src="pic2.jpg" style="width:100%;">
+                  </div>
+    
+                  <div class="item">
+                    <img src="pic3.jpg" style="width:100%;">
+                  </div>
+              </div>
+
+    <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+              </a>
+          </div>   
+      
+     </div>
+     <br>
+     <br>
+     <div class="row" id="c3" margin-top="10px">
+          <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+    <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="pic1.jpg" style="width:100%;">
+                  </div>
+
+                  <div class="item">
+                    <img src="pic2.jpg" style="width:100%;">
+                  </div>
+    
+                  <div class="item">
+                    <img src="pic3.jpg" style="width:100%;">
+                  </div>
+              </div>
+
+    <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+              </a>
+          </div>   
+      
+     </div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="pm">
+   
+  
+        <ul class="nav nav-tabs" id="r">
+        <li class="active"><a data-toggle="tab" href="#signup">SIGN-UP</a></li>
+        <li><a data-toggle="tab" href="#login">LOGIN</a></li>
+        </ul>
+
+        <div class="tab-content" id="r">
+            <div id="signup" class="tab-pane fade in active">
+               <form name="myForm" onsubmit="return (Validateform())"  method="post">
+                  <div class="form-group">
+                  <br>
+                  <label for="usr">Name:</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required>
+                  </div>
+                  
+                  <div class="form-group">
+                  <label for="usr">Mobile No:</label>
+                  <input type="tel" pattern="^\d{10}$" name="mobile" class="form-control" id="mobile" placeholder="Mobile number" required>
+                  </div>
+                  
+                  <div class="form-group">
+                  <label for="usr">Email id:</label>
+                  <input type="email" name="email"class="form-control" id="email" placeholder="Email id" required>
+                  </div>
+
+                  <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" name="password" class="form-control" id="password" placeholder="password" required>
+                </div>
+               <br>
+                <button type="submit" class="btn btn-default">Submit</button>
+               </form> 
+     
+            </div>
+        <div id="login" class="tab-pane fade" id="r">
+              <form name="myForm1" onsubmit="return (Validateform1())"  method="post">
+                  <div class="form-group">
+                  <br>
+                  <label for="usr">Email Id:</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Email id" required>
+                  </div>
+                  <div class="form-group">
+                  <br>
+                  <label for="usr">Password:</label>
+                  <input type="password" class="form-control" id="password" placeholder="password">
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-default">LOGIN</button>
+               </form>
+
+            </div>
+    
+        </div>
+      
+    </div>
+  
+  </div>
+</div>
+
+
+</body>
+</html>
